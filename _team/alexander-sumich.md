@@ -1,11 +1,12 @@
 ---
-title: 'Mike Vance'
-date: 2018-12-20T13:44:30+10:00
+title: 'Alexander Sumich'
+date: 2018-12-20T13:45:06+10:00
 draft: false
-image: 'images/team/joseph-gonzalez-399972-unsplash.jpg'
-jobtitle: 'Art Director'
-linkedinurl: ""
-weight: 3
+image: 'images/team/alexander-sumich.jpg'
+jobtitle: 'Science Leader'
+linkedinurl: "https://www.linkedin.com/in/alexander-sumich-5358142b/"
+promoted: true
+weight: 2.5
 layout: team
 ---
 

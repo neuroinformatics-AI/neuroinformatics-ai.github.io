@@ -1,11 +1,12 @@
 ---
-title: 'Robert Johnson'
-date: 2018-12-20T13:44:23+10:00
+title: "Zohreh Doborjeh"
+date: 2018-11-19T10:47:58+10:00
 draft: false
-image: 'images/team/vince-fleming-613817-unsplash.jpg'
-jobtitle: 'Developer'
-linkedinurl: "https://www.linkedin.com/"
-weight: 3
+image: "images/team/zohreh-doborjeh.jpg"
+jobtitle: "Co-founder and co-director"
+linkedinurl: "https://www.linkedin.com/in/zohrehdoborjeh/"
+promoted: true
+weight: 1.5
 layout: team
 ---
 
