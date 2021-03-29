@@ -2,6 +2,7 @@
 
 Neuro-computational models of brain data using advanced Brain-inspired AI technologies.
 
+
 ![Neuroscience](/images/illustrations/neuroscience.svg)
 
 ### About
