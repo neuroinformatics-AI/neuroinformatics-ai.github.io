@@ -1,0 +1,52 @@
+baseurl: '/'
+permalink: pretty
+title: 'Neuroinformatics'
+
+google_analytics_id: ""
+
+homepage:
+  show_call_box: false
+
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "36px"
+
+footer:
+  copyright_text: 'Non-profit Inc <a class="neuroinformatics" href="https://www.linkedin.com/company/neuroinformatics/">Neuroinformatics</a>'
+
+seo:
+  meta_og_title: "Neuroinformatics"
+  meta_og_type: "website"
+  meta_og_url: "neuroinformatics-ai.github.io"
+  meta_og_image: "/images/illustrations/neuroscience.svg"
+  meta_og_description: "Neuro-computational models of brain data using advanced Brain-inspired AI technologies."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@neuroinformatics"
+  meta_twitter_creator: "@neuroinformatics"
+
+collections:
+  services:
+    output: true
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

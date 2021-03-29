@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Brain-Inspired AI",
+    "description": "desc 1",
+    "image": "images/features/feature1.svg"
+  },
+  {
+    "title": "Knowledge Discovery",
+    "description": "desc 2",
+    "image": "images/features/feature2.svg"
+  },
+  {
+    "title": "Artificial Intelligence",
+    "description": "desc 3",
+    "image": "images/features/feature3.svg"
+  }
+]

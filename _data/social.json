@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/neuroinformatics-ai",
+    "image": "images/social/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/neuroinformatics",
+    "image": "images/social/twitter.svg"
+  }
+]
