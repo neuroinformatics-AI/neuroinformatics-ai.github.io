@@ -1,10 +1,12 @@
 ---
-title: 'Susan Shelton'
-date: 2018-12-20T13:45:06+10:00
+title: 'Balkaran Singh'
+date: 2018-12-20T13:44:30+10:00
 draft: false
-image: 'images/team/cristian-newman-94319-unsplash.jpg'
-jobtitle: 'Developer'
-weight: 5
+image: 'images/team/balkaran-singh.jpg'
+jobtitle: 'Research Assistant'
+linkedinurl: "https://www.linkedin.com/in/balkaran-singh-350403179/"
+promoted: true
+weight: 3.5
 layout: team
 ---
 

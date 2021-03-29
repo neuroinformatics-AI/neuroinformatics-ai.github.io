@@ -1,12 +1,12 @@
 ---
-title: "Sage Kirk"
-date: 2018-11-19T10:47:58+10:00
+title: 'Sugam Budhraja'
+date: 2018-12-20T13:44:55+10:00
 draft: false
-image: "images/team/sage-kirk-485982-unsplash.jpg"
-jobtitle: "Accounting Partner"
-linkedinurl: "https://www.linkedin.com/example2"
+image: 'images/team/sugam-budhraja.jpg'
+jobtitle: 'PhD student and Tech Manager'
+linkedinurl: "https://www.linkedin.com/in/sugam-budhraja/"
 promoted: true
-weight: 2
+weight: 3
 layout: team
 ---
 

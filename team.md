@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Our team of qualified researchers and teaching professionals that have immense experience in the fields of Neuroscience, Artificial Intelligence and Knowledge Discovery.
