@@ -2,8 +2,7 @@
 
 Neuro-computational models of brain data using advanced Brain-inspired AI technologies.
 
-
-![Neuroscience](/images/illustrations/neuroscience.svg)
+<img src="./images/illustrations/neuroscience.svg" width="50%"/>
 
 ### About
 
@@ -21,4 +20,4 @@ Neuroinformatics is an interdisciplinary field that combines disciplines from ne
 ### Credits
 
 - Theme based on JekyllSerif
-- Vectors from Icon8
+- Vectors from Icon8 and unDraw
