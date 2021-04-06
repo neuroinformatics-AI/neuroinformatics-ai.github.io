@@ -1,8 +1,9 @@
 ---
-title: "Accounting"
+title: "Semi-Supervised Learning and its Applications"
 date: 2018-11-18T12:33:46+10:00
+image: "../images/articles/SemiSupervisedLearning.png"
 featured: true
-weight: 1
+weight: 11
 layout: article
 ---
 

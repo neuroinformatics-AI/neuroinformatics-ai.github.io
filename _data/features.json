@@ -2,16 +2,16 @@
   {
     "title": "Brain-Inspired AI",
     "description": "desc 1",
-    "image": "images/features/feature1.svg"
+    "image": "images/features/Neuroscience.svg"
   },
   {
     "title": "Knowledge Discovery",
     "description": "desc 2",
-    "image": "images/features/feature2.svg"
+    "image": "images/features/MachineLearning.svg"
   },
   {
-    "title": "Artificial Intelligence",
+    "title": "Information Processing",
     "description": "desc 3",
-    "image": "images/features/feature3.svg"
+    "image": "images/features/Information.svg"
   }
 ]

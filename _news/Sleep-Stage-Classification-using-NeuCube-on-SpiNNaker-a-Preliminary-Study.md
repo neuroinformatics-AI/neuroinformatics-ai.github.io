@@ -1,8 +1,9 @@
 ---
-title: "Mergers"
+title: "Sleep Stage Classification using NeuCube on SpiNNaker: a Preliminary Study"
 date: 2018-11-28T15:15:34+10:00
+image: "../images/articles/SleepAnalysis.svg"
 featured: true
-weight: 4
+weight: 9
 layout: article
 ---
 
