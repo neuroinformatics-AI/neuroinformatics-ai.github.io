@@ -22,11 +22,12 @@ bodyClass: page-news-list
   <div class="row">
     {% assign weighted_news = site.news %}
     {% if weighted_news %}
-    {% assign weighted_news = weighted_news | sort: "weight" %}  
+    {% assign weighted_news = weighted_news | sort: "weight" | reverse %}  
     {% for article in weighted_news %}
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-4 mb-1">
       <div class="article article-summary">
         <div class="article-content">
+          <img src="{{ article.image }}" class="article-image"/>
           <h2 class="article-title">
             <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
           </h2>

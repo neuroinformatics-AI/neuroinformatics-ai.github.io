@@ -7,7 +7,7 @@ $primary: #5c2be2;
 $secondary: #906eeb;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f9f6ff;
 $steel: #5C5A5A;
 
 // Links
@@ -55,6 +55,7 @@ $sub-footer-text-color: $white;
 @import 'components/strip';
 @import 'components/feature';
 @import 'components/social';
+@import 'components/article';
 
 // Pages
 @import 'pages/home';

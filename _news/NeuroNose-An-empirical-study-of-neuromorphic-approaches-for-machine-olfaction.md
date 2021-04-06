@@ -1,8 +1,9 @@
 ---
-title: "Business Advisory"
+title: "NeuroNose: An empirical study of neuromorphic approaches for machine olfaction"
 date: 2018-11-28T15:14:39+10:00
+image: ../images/articles/Olfaction.jpg
 featured: true
-weight: 2
+weight: 10
 layout: article
 ---
 
