@@ -1,0 +1,451 @@
+  #arrows {
+    animation: rotate 4s linear infinite;
+    transform-origin: 225.75px 178.45000457763672px;
+  }
+  #arrows2 {
+    animation: rotate 4s linear infinite;
+    transform-origin: 424.6499938964844px 217.60000610351562px;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes rotateBack {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+  
+  #clockwise {
+    animation: rotate 5s linear infinite;
+    transform-origin: 274.4500274658203px 178.40000915527344px;
+  }
+  #anticlockwise {
+    animation: rotateBack 5s linear infinite;
+    transform-origin: 298.15000915527344px 153.5px;
+  }
+  
+  #cogclockwise {
+    animation: rotate 5s linear infinite;
+    transform-origin: 1031.8499755859375px 237.3499984741211px;
+  }
+  #coganticlockwise {
+    animation: rotateBack 5s linear infinite;
+    transform-origin: 1058.5001220703125px 206.5999984741211px;
+  }
+  
+  #needle {
+    animation: needle 3s ease-out infinite alternate;
+    transform-origin: 993.599976px 197.100006px;
+  }
+  @keyframes needle {
+    0%,
+    30% {
+      transform: rotate(-145deg);
+    }
+    80%,
+    100% {
+      transform: rotate(0);
+    }
+  }
+  
+  #controller rect:nth-child(1) {
+    animation: controller1 2s 1200ms linear infinite alternate-reverse;
+  }
+  #controller rect:nth-child(2) {
+    transform: translateY(7px);
+    animation: controller2 2s 500ms linear infinite alternate-reverse;
+  }
+  #controller rect:nth-child(3) {
+    animation: controller3 2s 900ms linear infinite alternate-reverse;
+  }
+  
+  @keyframes controller1 {
+    0% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+  @keyframes controller2 {
+    0% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+  @keyframes controller3 {
+    0% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+  
+  #voice path:nth-child(1) {
+    animation: voice 2.5s 400ms ease-in infinite;
+  }
+  #voice path:nth-child(2) {
+    animation: voice 2.5s 200ms ease-in infinite;
+  }
+  #voice path:nth-child(3) {
+    animation: voice 2.5s ease-in infinite;
+  }
+  @keyframes voice {
+    0%,
+    40% {
+      transform: translateX(-7px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  #tick {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 26;
+    animation: tick 3s linear infinite;
+  }
+  @keyframes tick {
+    50%,
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  #bubbles g:nth-child(1) {
+    animation: bubbles 500ms ease-out infinite alternate-reverse;
+  }
+  #bubbles g:nth-child(2) {
+    animation: bubbles 500ms 250ms ease-out infinite alternate-reverse;
+  }
+  #bubbles g:nth-child(3) {
+    animation: bubbles 500ms 500ms ease-out infinite alternate-reverse;
+  }
+  
+  @keyframes bubbles {
+    0%,
+    50% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-7px);
+    }
+  }
+  
+  #comp-logo {
+    animation: logo 3s ease infinite;
+    transform-origin: 870.7001037597656px 250.84999084472656px;
+  }
+  @keyframes logo {
+    0% {
+      transform: scale(0);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    80%,
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  #left-brain {
+    animation: brains 2s 1s ease infinite alternate-reverse;
+    transform-origin: 369.6499938964844px 119.4000015258789px;
+  }
+  
+  @keyframes brains {
+    0% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.05);
+    }
+    80%,
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes rightbrain {
+    0% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.2);
+    }
+    80%,
+    100% {
+      transform: scale(1);
+    }
+  }
+  #right-brain circle:nth-child(1) {
+    animation: rightbrain 2s ease infinite alternate-reverse;
+    transform-origin: 438.09999990463257px 91.19999837875366px;
+  }
+  #right-brain circle:nth-child(2) {
+    animation: rightbrain 2s ease infinite alternate-reverse;
+    transform-origin: 441.8999876976013px 147.49999380111694px;
+  }
+  #right-brain circle:nth-child(3) {
+    animation: rightbrain 2s ease infinite alternate-reverse;
+    transform-origin: 421.2000060081482px 78.09999990463257px;
+  }
+  #right-brain circle:nth-child(4) {
+    animation: rightbrain 2s ease infinite alternate-reverse;
+    transform-origin: 422.2000060081482px 158.79999685287476px;
+  }
+  #right-brain circle:nth-child(5) {
+    animation: rightbrain 2s ease infinite alternate-reverse;
+    transform-origin: 421.2000060081482px 128.8000044822693px;
+  }
+  #bubbles2 g:nth-child(1) {
+    animation: middleBubble 8s ease infinite alternate-reverse;
+  }
+  #bubbles2 g:nth-child(2) {
+    animation: firstBubble 7s 1s ease infinite alternate-reverse;
+  }
+  #bubbles2 g:nth-child(3) {
+    animation: lastBubble 7s ease infinite alternate-reverse;
+  }
+  @keyframes firstBubble {
+    0% {
+      transform: translate(0px);
+    }
+    20% {
+      transform: translate(-3px, -3px);
+    }
+    40% {
+      transform: translate(3px, 2px);
+    }
+    60% {
+      transform: translate(-5px, 2px);
+    }
+  }
+  @keyframes middleBubble {
+    0% {
+      transform: translate(0px);
+    }
+    20% {
+      transform: translate(3px, 5px);
+    }
+    40% {
+      transform: translate(13px, -2px);
+    }
+    70% {
+      transform: translate(-5px, 2px);
+    }
+  }
+  @keyframes lastBubble {
+    0% {
+      transform: translate(0px);
+    }
+    20% {
+      transform: translate(8px, -2px);
+    }
+    40% {
+      transform: translate(-7px, -5px);
+    }
+    70% {
+      transform: translate(5px, 5px);
+    }
+  }
+  
+  #rocket-flame path:nth-child(1) {
+    animation: flame 200ms ease infinite alternate-reverse;
+    transform-origin: 1340.4000244140625px 221.1999969482422px;
+  }
+  
+  #rocket-flame path:nth-child(2) {
+    animation: flame 200ms 100ms ease infinite alternate-reverse;
+    transform-origin: 1335.8990478515625px 224.2974090576172px;
+  }
+  
+  @keyframes flame {
+    0% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(1.2);
+    }
+  }
+  
+  #bubble1 {
+    animation: bubble1 3s 100ms linear infinite;
+  }
+  #bubble2 {
+    animation: bubble2 3s 90ms linear infinite;
+  }
+  #right-bubbles g:nth-child(1) {
+    animation: bubble1 3.5s linear infinite;
+  }
+  #right-bubbles g:nth-child(2) {
+    animation: bubble2 3.5s linear infinite;
+  }
+  @keyframes bubble1 {
+    0% {
+      transform: translate(0, 5px);
+    }
+    20% {
+      transform: translate(5px, -3px);
+    }
+    40% {
+      transform: translate(-5px, -6px);
+    }
+    60% {
+      transform: translate(5px, -9px);
+    }
+    80% {
+      transform: translate(-5px, -12px);
+    }
+    90%,
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes bubble2 {
+    0% {
+      transform: translate(0, 5px);
+    }
+    20% {
+      transform: translate(-5px, -3px);
+    }
+    40% {
+      transform: translate(5px, -6px);
+    }
+    60% {
+      transform: translate(-5px, -9px);
+    }
+    80% {
+      transform: translate(-5px, -12px);
+    }
+    90%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  #dots circle:nth-child(1) {
+    animation: dot1 3s ease-in-out infinite;
+  }
+  #dots circle:nth-child(2) {
+    animation: dot2 3s ease-in-out infinite;
+  }
+  #dots circle:nth-child(3) {
+    animation: dot3 3s ease-in-out infinite;
+  } 
+  @keyframes dot1 {
+    0% {
+      transform: translate(0);
+    }
+    25%, 75% {
+      transform: translate(0, -35px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  @keyframes dot2 {
+    0% {
+      transform: translate(0);
+    }
+    50%, 75% {
+      transform: translate(0, -35px);
+    }
+     100% {
+      transform: translate(0);
+    }
+   }
+  @keyframes dot3 {
+    0%, 25% {
+      transform: translate(0);
+    }
+    50%, 75% {
+      transform: translate(0, -35px);
+    }
+    100% {
+      transform: translate(0);
+    }
+  } 
+  
+  .RITQwaaK_0 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    animation: draw 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_1 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    animation: draw 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_2 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    animation: draw 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_3 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    animation: draw 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_4 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    animation: draw 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_5 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    animation: draw2 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_6 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    animation: draw2 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_7 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    animation: draw2 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_8 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    animation: draw2 1000ms ease-in-out 0ms  infinite reverse;
+  }
+  .RITQwaaK_9 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    animation: draw2 1000ms ease-in-out 0ms infinite reverse;
+  }
+  @keyframes draw {
+    30%, 50% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -11;
+    }
+  }
+  
+  @keyframes draw2 {
+    30%, 50% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -7;
+    }
+  }
+  
