@@ -1,52 +1,151 @@
 ---
-title: 'About'
-date: 2018-02-22T17:01:34+07:00
-layout: page
-bodyClass: page-about
+title: About
+sections:
+  - type: hero_section
+    title: About
+    subtitle: About Page Demo
+    align: center
+    background_color: secondary
+  - type: features_section
+    features:
+      - title: Section Title One
+        subtitle: 'Odio et tortor laoreet, sed interdum augue ornare. '
+        content: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
+          fringilla, fringilla.
+        image: images/about-5.jpg
+        image_alt: People in conversation in the office lounge area
+        media_position: right
+        media_width: fifty
+      - title: Section Title Two
+        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        content: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
+          fringilla, fringilla.
+        image: images/about-2.jpg
+        image_alt: People in a conference room
+        media_position: left
+        media_width: fifty
+      - title: Section Title Three
+        subtitle: 'Donec nisl ligula, cursus id molestie vel. '
+        content: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
+          fringilla, fringilla.
+        image: images/about-1.jpg
+        image_alt: Happy co-workers
+        media_position: right
+        media_width: fifty
+  - type: grid_section
+    title: Our Officess
+    grid_items:
+      - title: Some City
+        content: >-
+          1234 Some St.<br/> Some City, ST 12345<br/>
+          [1-234-556-7890](tel:+12345567890)<br/>
+          [email@example.com](mailto:email@example.com)
+        content_align: left
+        actions:
+          - label: Get Directions
+            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            style: link
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+        actions_align: left
+        actions_width: auto
+      - title: Some City
+        content: >-
+          1234 Some St.<br/> Some City, ST 12345<br/>
+          [1-234-556-7890](tel:+12345567890)<br/>
+          [email@example.com](mailto:email@example.com)
+        content_align: left
+        actions:
+          - label: Get Directions
+            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            style: link
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+        actions_align: left
+        actions_width: auto
+      - title: Some City
+        content: >-
+          1234 Some St.<br/> Some City, ST 12345<br/>
+          [1-234-556-7890](tel:+12345567890)<br/>
+          [email@example.com](mailto:email@example.com)
+        content_align: left
+        actions:
+          - label: Get Directions
+            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            style: link
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+        actions_align: left
+        actions_width: auto
+      - title: Some City
+        content: >-
+          1234 Some St.<br/> Some City, ST 12345<br/>
+          [1-234-556-7890](tel:+12345567890)<br/>
+          [email@example.com](mailto:email@example.com)
+        content_align: left
+        actions:
+          - label: Get Directions
+            url: 'https://goo.gl/maps/eh6fn7JjMS4vYs337'
+            style: link
+            has_icon: true
+            icon: arrow-right
+            icon_position: right
+        actions_align: left
+        actions_width: auto
+    grid_cols: four
+    grid_gap_horiz: large
+    grid_gap_vert: large
+    enable_cards: true
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+  - type: cta_section
+    title: This is a Call to Action
+    content: Ut egestas elementum suscipit. Quisque at hendrerit mauris.
+    actions:
+      - label: Compare Plans
+        url: /pricing
+        style: primary
+    align: center
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: primary
+seo:
+  title: About
+  description: This is the about us page
+  extra:
+    - name: 'og:type'
+      value: website
+      keyName: property
+    - name: 'og:title'
+      value: About
+      keyName: property
+    - name: 'og:description'
+      value: This is the about us page
+      keyName: property
+    - name: 'og:image'
+      value: images/about-1.jpg
+      keyName: property
+      relativeUrl: true
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:title'
+      value: About
+    - name: 'twitter:description'
+      value: This is the about us page
+    - name: 'twitter:image'
+      value: images/about-1.jpg
+      relativeUrl: true
+layout: advanced
 ---
-
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
-
-## Ne verba patulosque numen vix libet
-
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
-
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
