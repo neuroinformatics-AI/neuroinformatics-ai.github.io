@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: body
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
-            </div>
-        </div>
-    </div>
-</div>
+<article class="page py-5 py-sm-6">
+	<div class="container container--medium">
+		<header class="page__header">
+			<h1 class="page__title">{{ page.title }}</h1>
+		</header>
+		<div class="page__body text-block">
+			{{ content }}
+		</div>
+	</div>
+</article>
