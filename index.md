@@ -115,7 +115,7 @@ sections:
         image: images/team/sugam-budhraja.jpg
         image_position: top
       - title: Balkaran Singh
-        subtitle: Research Assisstant
+        subtitle: Research Associate
         title_align: center
         image: images/team/balkaran-singh.jpg
         image_position: top
