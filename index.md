@@ -94,7 +94,7 @@ sections:
         title_align: center
         image: images/team/maryam-doborjeh.jpg
         image_position: top
-      - title: Zohreh Doborjeh
+      - title: Dr Zohreh Doborjeh
         subtitle: Co-Founder & Co-Director
         title_align: center
         image: images/team/zohreh-doborjeh.jpg
