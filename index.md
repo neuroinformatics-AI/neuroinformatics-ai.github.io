@@ -97,7 +97,7 @@ sections:
       - title: Dr Zohreh Doborjeh
         subtitle: Co-Founder & Co-Director
         title_align: center
-        image: images/DSC_0506.JPG
+        image: images/zohreh.jpg
         image_position: top
       - title: A Prof Alexander Sumich
         subtitle: Science Leader
