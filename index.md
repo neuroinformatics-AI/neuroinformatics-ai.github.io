@@ -25,7 +25,7 @@ sections:
     title: Research Areas
     subtitle: Our Focus
     features:
-      - title: Computational Intelligence
+      - title: Neuroinformatics Seminar Series
         subtitle: Scientific study of the nervous system
         content: >-
           Neuroscience (or neurobiology) is a multidisciplinary science that
