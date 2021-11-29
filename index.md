@@ -4,7 +4,8 @@ sections:
   - type: hero_section
     title: Neuroinformatics
     content: >-
-      Neuro-computational models of brain data using advanced Brain-inspired AI technologies.
+      Neuro-computational models of brain data using advanced Brain-inspired AI
+      technologies.
     actions:
       - label: Join Us
         url: /pricing
@@ -12,9 +13,6 @@ sections:
       - label: Learn More
         url: /features
         style: secondary
-    # video_embed_html: >- 
-    #     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    #     <lottie-player src="images/classic/hero.json" mode="bounce" background="transparent"  speed="1"  style="width: 500px; height: 300px;"  loop autoplay></lottie-player>
     image: images/illustrations/neuroscience-illustration.svg
     image_alt: Hero section placeholder image
     media_position: left
@@ -30,7 +28,11 @@ sections:
       - title: Neuroscience
         subtitle: Scientific study of the nervous system
         content: >-
-          Neuroscience (or neurobiology) is a multidisciplinary science that combines physiology, anatomy, molecular biology, developmental biology, cytology, computer science and mathematical modeling to understand the fundamental and emergent properties of neurons and neural circuits.
+          Neuroscience (or neurobiology) is a multidisciplinary science that
+          combines physiology, anatomy, molecular biology, developmental
+          biology, cytology, computer science and mathematical modeling to
+          understand the fundamental and emergent properties of neurons and
+          neural circuits.
         actions:
           - label: Learn More
             url: /style-guide
@@ -45,7 +47,10 @@ sections:
       - title: Machine Learning
         subtitle: Computer algorithms that improve through experience
         content: >-
-          Machine learning involves computers discovering how they can perform tasks without being explicitly programmed to do so. Machine learning algorithms build a model based on sample data, in order to make predictions or decisions.
+          Machine learning involves computers discovering how they can perform
+          tasks without being explicitly programmed to do so. Machine learning
+          algorithms build a model based on sample data, in order to make
+          predictions or decisions.
         actions:
           - label: Learn More
             url: /style-guide
@@ -60,7 +65,10 @@ sections:
       - title: Knowledge Discovery
         subtitle: Extracting useful knowledge from data
         content: >-
-          Knowledge discovery involves creation of machine-readable and machine-interpretable knowledge from unstructured sources such as brain data, signals, images and text, in a manner that facilitates inferencing.
+          Knowledge discovery involves creation of machine-readable and
+          machine-interpretable knowledge from unstructured sources such as
+          brain data, signals, images and text, in a manner that facilitates
+          inferencing.
         actions:
           - label: Learn More
             url: /style-guide
@@ -81,7 +89,7 @@ sections:
         url: /style-guide
         style: primary
     grid_items:
-      - title: Maryam Doborjeh
+      - title: Dr Maryam Doborjeh
         subtitle: Co-Founder & Co-Director
         title_align: center
         image: images/team/maryam-doborjeh.jpg
@@ -325,7 +333,7 @@ sections:
     background_color: secondary
 seo:
   title: Neuroinformatics
-  description: 
+  description: null
   extra:
     - name: 'og:type'
       value: website
