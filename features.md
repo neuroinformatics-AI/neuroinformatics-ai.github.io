@@ -4,8 +4,9 @@ sections:
   - type: hero_section
     title: International Neuroinformatics Seminar Series (INIS)
     subtitle: >-
-      INI series are organised jointly by leading researchers for the feild of
-      Computational Intelligence Cognitive ad
+      INI series are organised jointly by leading researchers in
+      interdisciplinary field of Computational Intelligence, Psychology,
+      Neuroscience and Advanced AI technology
     background_color: primary
   - type: features_section
     features:
