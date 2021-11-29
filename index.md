@@ -44,7 +44,7 @@ sections:
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: fifty
-      - title: Advanced Machine Learning Develoment
+      - title: Advanced Machine Learning Algorithm Development
         subtitle: Computer algorithms that improve through experience
         content: >-
           Machine learning involves computers discovering how they can perform
