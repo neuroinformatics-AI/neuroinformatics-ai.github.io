@@ -99,7 +99,7 @@ sections:
         title_align: center
         image: images/team/zohreh-doborjeh.jpg
         image_position: top
-      - title: Alexander Sumich
+      - title: A Prof Alexander Sumich
         subtitle: Science Leader
         title_align: center
         image: images/team/alexander-sumich.jpg
