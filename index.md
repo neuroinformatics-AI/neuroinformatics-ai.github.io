@@ -110,7 +110,7 @@ sections:
         image: images/team/nikola-kasabov.jpg
         image_position: top
       - title: Sugam Budhraja
-        subtitle: PhD Student & Software Developer
+        subtitle: Research Associate & Software Developer
         title_align: center
         image: images/team/sugam-budhraja.jpg
         image_position: top
