@@ -104,7 +104,7 @@ sections:
         title_align: center
         image: images/team/alexander-sumich.jpg
         image_position: top
-      - title: Nikola Kasabov
+      - title: Prof Nikola Kasabov
         subtitle: Science Leader
         title_align: center
         image: images/team/nikola-kasabov.jpg
