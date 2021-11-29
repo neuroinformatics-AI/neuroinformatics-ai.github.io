@@ -40,7 +40,7 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/illustrations/artificial-intelligence-illustration.png
+        image: images/photo.png
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: fifty
