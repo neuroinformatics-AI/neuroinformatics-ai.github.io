@@ -45,7 +45,9 @@ sections:
         media_position: right
         media_width: fifty
       - title: Advanced Machine Learning Algorithm Development
-        subtitle: Computer algorithms that improve through experience
+        subtitle: >-
+          Advanced bio-and neuro-biologically inspired learning algorithms that
+          improve decision making and decision support in read-life applications
         content: >-
           Machine learning involves computers discovering how they can perform
           tasks without being explicitly programmed to do so. Machine learning
